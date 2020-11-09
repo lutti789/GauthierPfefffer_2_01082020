@@ -1,0 +1,148 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*mobile*/
+@media screen and (max-width:500px ){
+	body{
+		background-color: orange;
+	}
+}
+
+body{
+	
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+/*logos*/
+.logo1, .logo2, .logo3{
+	width: 27px;
+}
+
+.logo4, .logo5{
+	width: 20px;
+}
+
+.logo4{
+	font-size: 15px;
+}
+
+.logo5{
+	font-size: 10px;
+}
+
+.logo1, .logo2, .logo3, .logo4, .logo5{
+	color: green;
+}
+
+#header{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.photo{
+	width: 200px;
+	padding-top: 30px;
+}
+
+.nom{
+	font-size: 2.5em;
+}
+
+.gauthier{
+	color: green;
+}
+
+.developper{
+	font-size: 1.4em;
+	margin-top:-25px
+}
+
+.develo{
+	text-decoration: underline;
+	text-decoration-color: green;
+}
+
+.titre1{
+	text-align: center;
+	color: orange;
+	text-decoration: underline;
+	text-decoration-color: green;
+	background-color: green;
+}
+
+ul {
+list-style-type: none;
+}
+
+#loisirs{
+	border-bottom: dashed;
+	border-bottom-color: white;
+}
+
+.imageloisirs{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+}
+
+.imageloisirs1{
+	font-size: 40px;
+	width: 33%;
+	color: black;
+	position: relative;
+	top: 10px;
+}
+
+.imageloisirs2{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+}
+
+.imageloisirs3{
+	font-size: 75px;
+	width: 33%;
+	color: black;
+	position: relative;
+	bottom: 60px;
+}
+
+.titre3{
+	color: green;
+	text-align: center;
+}
+
+.titre2{
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.titreparties{
+	border-bottom: solid;
+	border-bottom-color: green;
+	margin-left: 10%;
+	width: 80%;
+}
+
+.formation{
+	width: 65%;
+}
+
+.tableau{
+	display: flex;
+	flex-direction: row;
+}
+
+.tableau1{
+	width: 50%;
+	padding-left: 7%;
+}
+.tableau2{
+	width: 50%;
+	padding-right: 10%;
+}
+
+.places{
+	padding-left: 20px;
+}
